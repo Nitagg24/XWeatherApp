@@ -32,6 +32,7 @@ function XWeatherApp() {
       <div className="search-area">
         <input
           className="search-input"
+          type="text"
           value={city}
           onChange={(e) => setCity(e.target.value)}
           placeholder="Enter city name"
